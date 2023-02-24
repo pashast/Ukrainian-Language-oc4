@@ -1,10 +1,10 @@
 # Українська локалізація для OpenCart 4.0.2  
-Розширення використовує Events і Startup для перекладу стандартних роширень з папки extension/opencart
+Локалізація використовує Events і Startup для перекладу стандартних розширень з папки extension/opencart
 
 ## Встановлення
-Завантажити останній реліз розширення opex_lang.ocmod.zip  
+Завантажити останній реліз [opex_lang.ocmod.zip](https://github.com/pashast/Ukrainian-Language-oc4/releases)  
 Переключити адмін-панель на Англійську мову.  
-У роздіді Extensions/Installer встановити завнтажене розширення   
+У розділі Extensions/Installer встановити завнтажений архів   
 У розділі Extensions/Extensions вибрати тип Languages  
 Встановити і увімкнути Українську мову  
 
