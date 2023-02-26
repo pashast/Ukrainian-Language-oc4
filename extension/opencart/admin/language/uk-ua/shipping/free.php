@@ -4,13 +4,13 @@ $_['heading_title'] = 'Безкоштовна доставка';
 
 // Text
 $_['text_extension'] = 'Розширення';
-$_['text_success'] = 'Налаштування успішно змінено!';
-$_['text_edit'] = 'Редагування';
+$_['text_success']   = 'Налаштування успішно змінено!';
+$_['text_edit']      = 'Редагування';
 
 // Entry
-$_['entry_total'] = 'Ліміт суми';
-$_['entry_geo_zone'] = 'Географічна зона';
-$_['entry_status'] = 'Статус';
+$_['entry_total']      = 'Ліміт суми';
+$_['entry_geo_zone']   = 'Географічна зона';
+$_['entry_status']     = 'Статус';
 $_['entry_sort_order'] = 'Порядок сортування';
 
 // Help

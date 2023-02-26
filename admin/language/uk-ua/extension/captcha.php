@@ -4,13 +4,16 @@ $_['heading_title'] = 'Захист від роботів';
 
 // Text
 $_['text_success'] = 'Налаштування успішно змінено!';
-$_['text_list'] = 'Список модулів';
+$_['text_list']    = 'Список модулів';
 
 // Column
-$_['column_name'] = 'Назва';
+$_['column_name']   = 'Назва';
 $_['column_status'] = 'Статус';
 $_['column_action'] = 'Дія';
 
 // Error
 $_['error_permission'] = 'У Вас немає прав для редагування розширення Захист від роботів!';
-$_['error_extension'] = 'Увага: Розширення не існує!';
+$_['error_extension']  = 'Увага: Розширення не існує!';
+
+// Opencart extension names
+$_['basic_heading_title'] = 'Простий захист';

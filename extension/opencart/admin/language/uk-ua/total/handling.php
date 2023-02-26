@@ -4,14 +4,14 @@ $_['heading_title'] = 'Плата за обробку замовлення';
 
 // Text
 $_['text_extension'] = 'Розширення';
-$_['text_success'] = 'Налаштування успішно змінено!';
-$_['text_edit'] = 'Редагування';
+$_['text_success']   = 'Налаштування успішно змінено!';
+$_['text_edit']      = 'Редагування';
 
 // Entry
-$_['entry_total'] = 'Сума замовлення';
-$_['entry_fee'] = 'Плата';
-$_['entry_tax_class'] = 'Клас податку';
-$_['entry_status'] = 'Статус';
+$_['entry_total']      = 'Сума замовлення';
+$_['entry_fee']        = 'Плата';
+$_['entry_tax_class']  = 'Клас податку';
+$_['entry_status']     = 'Статус';
 $_['entry_sort_order'] = 'Порядок сортування';
 
 // Help

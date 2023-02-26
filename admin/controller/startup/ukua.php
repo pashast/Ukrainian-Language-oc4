@@ -2,9 +2,26 @@
 namespace Opencart\Admin\Controller\Extension\OpexLang\Startup;
 class Ukua extends \Opencart\System\Engine\Controller {
 	public function index(): void {
-		if ($this->config->get('language_ukua_status')) {
-			$this->language->addPath('extension/opex_lang/extension/opencart', DIR_EXTENSION . 'opex_lang/extension/opencart/admin/language/');
-			$this->event->register('language/*/after', new \Opencart\System\Engine\Action('extension/opex_lang/startup/ukua.eventAdmin'));
+		$excluded = array('extension/analytics',
+						  'extension/captcha',
+						  'extension/currency',
+						  'extension/dashboard',
+						  'extension/feed',
+						  'extension/fraud',
+						  'extension/language',
+						  'extension/module',
+						  'extension/other',
+						  'extension/payment',
+						  'extension/report',
+						  'extension/shipping',
+						  'extension/theme',
+						  'extension/total');
+
+		if (isset($this->request->get['route']) && $this->config->get('language_ukua_status')) {
+			if (!in_array($this->request->get['route'], $excluded)) {
+				$this->language->addPath('extension/opex_lang/extension/opencart', DIR_EXTENSION . 'opex_lang/extension/opencart/admin/language/');
+				$this->event->register('language/*/after', new \Opencart\System\Engine\Action('extension/opex_lang/startup/ukua.eventAdmin'));
+			}
 		}
 	}
 
