@@ -21,7 +21,7 @@ $_['column_status'] = 'Статус';
 $_['column_order_id'] = '№ Замовлення';
 $_['column_customer'] = 'Клієнт';
 $_['column_date_added'] = 'Дата додавання';
-$_['column_action'] = 'Дії';
+$_['column_action'] = 'Дія';
 
 // Entry
 $_['entry_code'] = 'Код';

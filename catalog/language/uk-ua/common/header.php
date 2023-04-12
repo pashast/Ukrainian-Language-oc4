@@ -9,4 +9,4 @@ $_['text_order'] = 'Історія замовлень';
 $_['text_transaction'] = 'Транзакції';
 $_['text_download'] = 'Завантаження';
 $_['text_logout'] = 'Вихід';
-$_['text_checkout'] = 'Оформлення замовлення';
+$_['text_checkout'] = 'Оформити';
