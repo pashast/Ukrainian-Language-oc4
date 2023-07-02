@@ -16,9 +16,3 @@ $_['column_action']     = 'Дія';
 // Error
 $_['error_permission'] = 'У Вас немає прав для редагування розширення Оплата!';
 $_['error_extension']  = 'Увага: Розширення не існує!';
-
-// Opencart extension names
-$_['bank_transfer_heading_title'] = 'Банківський переказ';
-$_['cheque_heading_title']        = 'Оплата готівкою';
-$_['cod_heading_title']           = 'Оплата при доставці';
-$_['free_checkout_heading_title'] = 'Безкоштовне замовлення';

@@ -14,7 +14,3 @@ $_['column_action'] = 'Дія';
 // Error
 $_['error_permission'] = 'У Вас немає прав для редагування розширення Курс валют!';
 $_['error_extension']  = 'Увага: Розширення не існує!';
-
-// Opencart extension names
-$_['ecb_heading_title']   = 'Конвертер валют Європейського Центрального Банку';
-$_['fixer_heading_title'] = 'Fixer – послуга конвертації валюти';

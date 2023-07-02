@@ -1,16 +1,4 @@
 <?php
-// Opencart extension names
-$_['voucher_heading_title']       = 'Подарунковий сертифікат';
-$_['total_heading_title']         = 'Разом';
-$_['tax_heading_title']           = 'Податки';
-$_['sub_total_heading_title']     = 'Сума';
-$_['shipping_heading_title']      = 'Доставка';
-$_['reward_heading_title']        = 'Бонусні бали';
-$_['low_order_fee_heading_title'] = 'Дод. плата за мінімальне замовлення';
-$_['handling_heading_title']      = 'Плата за обробку замовлення';
-$_['credit_heading_title']        = 'Кредит магазину';
-$_['coupon_heading_title']        = 'Купони';
-
 // Heading
 $_['heading_title'] = 'Суми замовлення';
 

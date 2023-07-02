@@ -17,7 +17,8 @@ $_['column_action'] = 'Дія';
 // Entry
 $_['entry_name'] = 'Назва';
 $_['entry_code'] = 'Код';
-$_['entry_locale'] = 'Кодування';
+$_['entry_extension']   = 'Розширення';
+$_['entry_locale'] = 'Локаль';
 $_['entry_status'] = 'Статус';
 $_['entry_sort_order'] = 'Порядок сортування';
 

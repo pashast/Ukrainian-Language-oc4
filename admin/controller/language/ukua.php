@@ -72,25 +72,6 @@ class Ukua extends \Opencart\System\Engine\Controller {
 
 			$this->model_localisation_language->addLanguage($language_data);
 
-
-			// Add startup to catalog
-			$startup_data = [
-				'code'        => 'language_ukua',
-				'description' => 'Ukrainian language',
-				'action'      => 'catalog/extension/opex_lang/startup/ukua',
-				'status'      => 1,
-				'sort_order'  => 1
-			];
-			$startup_admin_data = [
-				'code'        => 'admin_language_ukua',
-				'description' => 'Ukrainian language in admin',
-				'action'      => 'admin/extension/opex_lang/startup/ukua',
-				'status'      => 1,
-				'sort_order'  => 2
-			];
-			$this->load->model('setting/startup');
-			$this->model_setting_startup->addStartup($startup_data);
-			$this->model_setting_startup->addStartup($startup_admin_data);
 		}
 	}
 
@@ -103,9 +84,6 @@ class Ukua extends \Opencart\System\Engine\Controller {
 			if ($language_info) {
 				$this->model_localisation_language->deleteLanguage($language_info['language_id']);
 			}
-
-			$this->model_setting_startup->deleteStartupByCode('language_ukua');
-			$this->model_setting_startup->deleteStartupByCode('admin_language_ukua');
 		}
 	}
 }

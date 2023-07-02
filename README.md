@@ -1,5 +1,4 @@
-# Українська локалізація для OpenCart 4.0.2  
-Локалізація використовує Events і Startup для перекладу стандартних розширень з папки extension/opencart
+# Українська локалізація для OpenCart 4.0.2.2  
 
 ## Встановлення
 Завантажити останній реліз [opex_lang.ocmod.zip](https://github.com/pashast/Ukrainian-Language-oc4/releases)  

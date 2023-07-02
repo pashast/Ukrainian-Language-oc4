@@ -15,10 +15,3 @@ $_['column_action']     = 'Дія';
 // Error
 $_['error_permission'] = 'У Вас немає прав для редагування розширення Доставка!';
 $_['error_extension']  = 'Увага: Розширення не існує!';
-
-// Opencart extension names
-$_['weight_heading_title'] = 'Доставка в залежності від ваги';
-$_['pickup_heading_title'] = 'Самовивіз';
-$_['item_heading_title']   = 'Доставка з оплатою за одиницю';
-$_['free_heading_title']   = 'Безкоштовна доставка';
-$_['flat_heading_title']   = 'Доставка з фіксованною вартістю';

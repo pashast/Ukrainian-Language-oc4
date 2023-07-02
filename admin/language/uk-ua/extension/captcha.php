@@ -14,6 +14,3 @@ $_['column_action'] = 'Дія';
 // Error
 $_['error_permission'] = 'У Вас немає прав для редагування розширення Захист від роботів!';
 $_['error_extension']  = 'Увага: Розширення не існує!';
-
-// Opencart extension names
-$_['basic_heading_title'] = 'Простий захист';

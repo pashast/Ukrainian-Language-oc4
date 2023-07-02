@@ -17,6 +17,10 @@ $_['column_name'] = 'Назва Акції';
 $_['column_code'] = 'Код';
 $_['column_clicks'] = 'Переходів';
 $_['column_orders'] = 'Замовлень';
+$_['column_ip'] = 'IP';
+$_['column_account'] = 'Облікові записи';
+$_['column_store'] = 'Магазин';
+$_['column_country'] = 'Країна';
 $_['column_date_added'] = 'Дата';
 $_['column_action'] = 'Дія';
 

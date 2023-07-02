@@ -14,6 +14,3 @@ $_['column_action'] = 'Дія';
 // Error
 $_['error_permission'] = 'У Вас немає прав для редагування розширення Захист від шахраїв!';
 $_['error_extension']  = 'Увага: Розширення не існує!';
-
-// Opencart extension names
-$_['ip_heading_title']  = 'Захист від шахрайства по IP';
